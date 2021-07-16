@@ -1,0 +1,58 @@
+.sidebar{
+    
+    &__element:first-child{
+        border-top: 1px solid $silverLight !important;
+        border-top-left-radius: .6rem ;
+        border-top-right-radius: .6rem ;
+    }
+    &__element:first-child{
+        border-top: 1px solid $silverLight !important;
+        border-bottom-left-radius: .6rem ;
+        border-bottom-right-radius: .6rem ;
+    }
+    &__element{
+        background: $white;
+        padding: 1.5rem;
+        border: 1px solid $silverLight;
+        border-top: none;
+         cursor: pointer;
+         padding-right: 1rem;
+        
+         
+        
+        a{
+            color: $black;
+            font-size: 1.5rem;
+           
+
+           
+            
+        }
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            padding-left: 3rem;
+            
+            
+        }
+        .icon-2{
+            margin-left: -1.9rem;
+            margin-right: 1.2rem;
+        }
+       
+       .icon-1{
+           margin-right: 1.3rem;
+           margin-left: 1rem;
+       }
+       
+        &:hover{
+            background: $green;
+        }
+        &:hover a{
+            color: $white;
+        }
+        &:hover h3{
+            color: $white;
+        }
+    }
+}

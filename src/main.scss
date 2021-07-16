@@ -1,0 +1,27 @@
+
+@import "scsss/abstracts/variables";
+@import "scsss/abstracts/mixin";
+@import "scsss/abstracts/extends";
+
+//import scss abstracts
+@import "scsss/base/reset";
+
+//import scss utils
+@import "scsss/utils/utils";
+
+//import scss componenets
+@import "scsss/componenets/navbar";
+
+@import "scsss/componenets/bgImage";
+@import "scsss/componenets/notFound";
+@import "scsss/componenets/dashboard";
+@import "scsss/componenets/loader";
+@import "scsss/componenets/sidebar";
+@import "scsss/componenets/pagination";
+@import "scsss/componenets/home";
+
+//import scss layout
+@import "scsss/layout/grid";
+
+@import "scsss/componenets/account"
+
